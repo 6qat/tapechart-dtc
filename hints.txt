@@ -1,0 +1,6 @@
+Add to Github Maven repository:
+
+- Checkout repository branch and execute the following command:
+
+    mvn install:install-file -DgroupId=tapechart -DartifactId=tapechart-dtc -Dversion=0.1 -Dfile=c:\Users\cesch\.m2\repository\tapechart-dtc\tapechart-dtc_2.13\0.1\tapechart-dtc_2.13-0.1.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=. -DcreateChecksum=true
+
